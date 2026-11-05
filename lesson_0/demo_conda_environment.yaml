@@ -3,4 +3,11 @@ name: 2026_figure
 channels:
   - conda-forge
 dependencies:
+  - numpy=2.0.0
+  - polars
+  - scipy
+  - pyarrow
+  - matplotlib
+  - seaborn
+  - ipykernel
   - python==3.12
